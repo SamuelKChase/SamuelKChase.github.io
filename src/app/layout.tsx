@@ -14,8 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Include Google Fonts for Pacifico */}
-        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
       </head>
       <body>
         <nav style={{
