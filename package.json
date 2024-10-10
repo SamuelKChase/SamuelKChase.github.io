@@ -10,7 +10,7 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "export": "next export -o out",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "14.2.15",
