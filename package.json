@@ -12,6 +12,15 @@
     "export": "next export -o out",
     "deploy": "gh-pages -d build"
   },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export", // Add export here
+    "export": "next export -o out", // Ensure you have this line
+    "deploy": "gh-pages -d out" // Change this to 'out'
+},
   "dependencies": {
     "next": "14.2.15",
     "react": "^18",
